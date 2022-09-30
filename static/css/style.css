@@ -1,19 +1,29 @@
+
+/* Home */
+body{
+    margin: 5px auto; max-width: 900px;
+}
+
 header{
     justify-content: space-between; display: flex;
     height: 96px;
 }
 
 #logo{
-    background-color: blue;
-    display: inline-block; justify-content: left;
-
+    display: inline-block;justify-content: left;
+    margin-top: 15px;
 }
 
 #links{
     display: inline-block;justify-content: end;
-    background-color: brown;
+    margin-top: 35px;
+    width: 200px;
 }
 
 #capa{
     display: flex; justify-content: center;
+}
+
+.direitos{
+    text-align: center;
 }
