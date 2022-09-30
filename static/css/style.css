@@ -1,0 +1,19 @@
+header{
+    justify-content: space-between; display: flex;
+    height: 96px;
+}
+
+#logo{
+    background-color: blue;
+    display: inline-block; justify-content: left;
+
+}
+
+#links{
+    display: inline-block;justify-content: end;
+    background-color: brown;
+}
+
+#capa{
+    display: flex; justify-content: center;
+}
